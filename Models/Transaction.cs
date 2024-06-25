@@ -9,5 +9,6 @@
         public string TransactionType { get; set; } = string.Empty;
         public Account? Account { get; set; }
 
+
     }
 }

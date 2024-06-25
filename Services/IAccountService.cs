@@ -8,5 +8,6 @@ namespace WebAPIExamenEP.Services
         Task<decimal?> CheckBalanceAsync(string cardNumber, string pin);
         Task<string> DepositAmountAsync(DepositDto dto);
         Task<string> WithdrawAmountAsync(WithdrawDto dto);
+
     }
 }

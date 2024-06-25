@@ -8,7 +8,6 @@ using WebAPIExamenEP.Data;
 using WebAPIExamenEP.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Agregue servicios al contenedor.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

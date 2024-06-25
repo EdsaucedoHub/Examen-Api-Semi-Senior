@@ -36,7 +36,5 @@ namespace WebAPIExamenEP.Data
             await _context.SaveChangesAsync();
         }
 
-
-
     }
 }

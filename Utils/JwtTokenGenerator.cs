@@ -10,7 +10,6 @@ namespace WebAPIExamenEP.Utils
         private readonly string _secret;
         private readonly string _issuer;
         private readonly string _audience;
-
         public JwtTokenGenerator(string secret, string issuer, string audience)
         {
             _secret = secret;
